@@ -10,7 +10,7 @@ export default function UiButton({
   ...props
 }: UiButtonProps) {
   return (
-    <Button {...props} variant={variant} data-testid="@UiButton">
+    <Button {...props} variant={variant} data-testid="@UiButton" bg="brand.900">
       {props.children}
     </Button>
   );
