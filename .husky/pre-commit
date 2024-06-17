@@ -1,2 +1,2 @@
 npm run test:unit
-npx run lint-staged
+npx lint-staged
