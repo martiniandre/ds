@@ -11,12 +11,12 @@
         }
       ]
     },
-    "js": {
+    "ts": {
       "transformGroup": "js",
       "buildPath": "src/theme/js/",
       "files": [
         {
-          "destination": "variables.js",
+          "destination": "variables.ts",
           "format": "javascript/es6"
         }
       ]

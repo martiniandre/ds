@@ -1,1 +1,1 @@
-export * as Variants from "./variants";
+export * as Variants from './variants';

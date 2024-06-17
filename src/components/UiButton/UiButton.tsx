@@ -1,12 +1,12 @@
-import { Button, ButtonProps } from "@chakra-ui/react";
-import { Variants } from "../../constants";
+import { Button, ButtonProps } from '@chakra-ui/react';
+import { Variants } from '../../constants';
 
 interface UiButtonProps extends ButtonProps {
   variant?: Variants.ChakraButtonVariant;
 }
 
 export default function UiButton({
-  variant = "outline",
+  variant = 'outline',
   ...props
 }: UiButtonProps) {
   return (
